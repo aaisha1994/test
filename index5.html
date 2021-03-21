@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Source+Sans+Pro:wght@300&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Josefin Sans', sans-serif;
+            margin: 0;
+            padding: 0
+        }
+
+        a {
+            font-size: 20px;
+        }
+
+        .icon-cog {
+            color: white;
+        }
+
+        .tab {
+            float: left;
+
+            width: 20%;
+            height: 300px;
+        }
+
+        /* Style the buttons inside the tab */
+        .tab button {
+            display: block;
+
+            padding: 22px 16px;
+            width: 100%;
+            border: none;
+            outline: none;
+            text-align: left;
+            cursor: pointer;
+            transition: 0.3s;
+            font-size: 17px;
+        }
+
+        /* Change background color of buttons on hover */
+
+
+        /* Style the tab content */
+        .row-ul {
+            float: left;
+            padding: 0px 12px;
+
+            width: 80%;
+            border-left: none;
+            height: 300px;
+        }
+    </style>
+    <title>Meal Box!</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark " style=" background-color: #bd2130;">
+            <a class="navbar-brand" href="#">Mealbox</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">Login</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <div class="row  py-5 " style="background-color: #343a40;">
+            <div class="col-12 col-lg-4 col-md-4">
+                <img class="d-block  ml-md-4 ml-lg-4 img-fluid"
+                    src="https://source.unsplash.com/400x200/?restaurant,cafe" alt="First slide">
+            </div>
+            <div class="col-12 col-lg-8 col-md-8">
+                <h3 class="text-white text-left">Test Restaurant</h3>
+                <hr class="w-50 " style="border-top: 1px solid white; max-width: 450px; margin-left:0;">
+                <h5 class="text-white text-left">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
+                        <path fill="none" d="M0 0h24v24H0z" />
+                        <path
+                            d="M18.364 17.364L12 23.728l-6.364-6.364a9 9 0 1 1 12.728 0zM12 13a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"
+                            fill="rgba(255,255,255,1)" />
+                    </svg>
+
+                    Ramnagar surat
+                </h5>
+                <span class="text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
+                        <path fill="none" d="M0 0h24v24H0z" />
+                        <path
+                            d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm1-10V7h-2v7h6v-2h-4z"
+                            fill="rgba(255,255,255,1)" />
+                    </svg>
+                    <span>12:00-15:00</span>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid mt-4 ">
+            <div class="row" style="width: 20%;float: left;">
+                <div class="col-md-12 ">
+                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">Menu</a>
+                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">Menu</a>
+                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">Menu</a>
+                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">Menu</a>
+                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">Menu</a>
+                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">Menu</a>
+            </div>
+        </div>
+
+        <div  class="row-ul">
+            <div class="row mb-2">
+                <div class="col-md-3 col-lg-3 col-12 ">
+                    <div class="card">
+                        <img class="card-img-top" src="https://source.unsplash.com/400x200/?pizza,burger"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <div class="card-title">Dish</div>
+                            <div>
+                                <b class="card-text" style="color:#ff1f1f;">Rs 100</b>
+                                <button class="btn btn-danger " style="float: right;">Add to Cart</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-3 col-12 ">
+                    <div class="card">
+                        <img class="card-img-top" src="https://source.unsplash.com/400x200/?pizza,burger"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <div class="card-title">Dish</div>
+                            <div>
+                                <b class="card-text" style="color:#ff1f1f;">Rs 100</b>
+                                <button class="btn btn-danger " style="float: right;">Add to Cart</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-3 col-12 ">
+                    <div class="card">
+                        <img class="card-img-top" src="https://source.unsplash.com/400x200/?pizza,burger"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <div class="card-title">Dish</div>
+                            <div>
+                                <b class="card-text" style="color:#ff1f1f;">Rs 100</b>
+                                <button class="btn btn-danger " style="float: right;">Add to Cart</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-3 col-12 ">
+                    <div class="card">
+                        <img class="card-img-top" src="https://source.unsplash.com/400x200/?pizza,burger"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <div class="card-title">Dish</div>
+                            <div>
+                                <b class="card-text" style="color:#ff1f1f;">Rs 100</b>
+                                <button class="btn btn-danger " style="float: right;">Add to Cart</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-lg-3 col-12 ">
+                    <div class="card">
+                        <img class="card-img-top" src="https://source.unsplash.com/400x200/?pizza,burger"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <div class="card-title">Dish</div>
+                            <div>
+                                <b class="card-text" style="color:#ff1f1f;">Rs 100</b>
+                                <button class="btn btn-danger " style="float: right;">Add to Cart</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-3 col-12 ">
+                    <div class="card">
+                        <img class="card-img-top" src="https://source.unsplash.com/400x200/?pizza,burger"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <div class="card-title">Dish</div>
+                            <div>
+                                <b class="card-text" style="color:#ff1f1f;">Rs 100</b>
+                                <button class="btn btn-danger " style="float: right;">Add to Cart</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-3 col-12 ">
+                    <div class="card">
+                        <img class="card-img-top" src="https://source.unsplash.com/400x200/?pizza,burger"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <div class="card-title">Dish</div>
+                            <div>
+                                <b class="card-text" style="color:#ff1f1f;">Rs 100</b>
+                                <button class="btn btn-danger " style="float: right;">Add to Cart</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-3 col-12 ">
+                    <div class="card">
+                        <img class="card-img-top" src="https://source.unsplash.com/400x200/?pizza,burger"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <div class="card-title">Dish</div>
+                            <div>
+                                <b class="card-text" style="color:#ff1f1f;">Rs 100</b>
+                                <button class="btn btn-danger " style="float: right;">Add to Cart</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
